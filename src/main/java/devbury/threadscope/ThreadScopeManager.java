@@ -22,8 +22,8 @@ import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.config.Scope;
 import org.springframework.core.NamedThreadLocal;
 
-import javax.servlet.ServletRequestEvent;
-import javax.servlet.ServletRequestListener;
+import jakarta.servlet.ServletRequestListener;
+import jakarta.servlet.ServletRequestEvent;
 
 /**
  * Scope that binds thread scoped beans to a thread local.  This class functions in a similar way to
